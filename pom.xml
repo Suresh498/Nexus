@@ -25,7 +25,18 @@
     </dependency>
   </dependencies>
 
-
+<distributionManagement>
+	<repository>
+		<id>nexus</id>
+		<name>SkTechnologies Releases Nexus Repository</name>
+		<url>http://localhost:8081/repository/SKTechnologies//</url>
+	</repository>
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>SkTechnologies Snapshot Nexus Repository </name>
+		<url>http://localhost:8081/repository/SKTechnologies//</url>
+	</snapshotRepository>
+</distributionManagement>
 
   <build>
     <finalName>sample_maven_WebApp</finalName>
