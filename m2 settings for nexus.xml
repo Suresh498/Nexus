@@ -1,0 +1,15 @@
+<settings>
+<servers>
+	<server>
+			<id>deployment</id>
+			<username>admin</username>
+			<password>password</password>
+	</server><server>
+			<id>nexus</id>
+			<username>admin</username>
+			<password>admin123</password>
+	</server>
+	
+
+</servers>
+</settings>
